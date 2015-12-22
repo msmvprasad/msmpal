@@ -26,6 +26,7 @@ $config = [
         ],
         'user' => [
             'identityClass' => 'app\models\User',
+            //'class' => 'amnah\yii2\user\components\User',
             'enableAutoLogin' => true,
         ],
         'errorHandler' => [
@@ -48,7 +49,24 @@ $config = [
             ],
         ],
         'db' => require(__DIR__ . '/db.php'),
+        'urlManager' => [
+            'class' => 'yii\web\UrlManager',
+            // Disable index.php
+            'showScriptName' => false,
+            // Disable r= routes
+            'enablePrettyUrl' => true,
+            'rules' => array(
+
+            ),
+        ],
     ],
+    'modules' => [
+        //'user' => [
+          //  'class' => 'amnah\yii2\user\Module',
+            // set custom module properties here ...
+        //],
+    ],
+
     'params' => $params,
 ];
 

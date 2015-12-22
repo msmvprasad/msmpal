@@ -992,24 +992,24 @@
     },
     {
         "name": "amnah/yii2-user",
-        "version": "3.0.0",
-        "version_normalized": "3.0.0.0",
+        "version": "4.0.0",
+        "version_normalized": "4.0.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/amnah/yii2-user.git",
-            "reference": "3a068d8d1b096621fcd01d0fb1350b54373b767a"
+            "reference": "e0c20f543a33f75d690bd36352ffed18e809af96"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/amnah/yii2-user/zipball/3a068d8d1b096621fcd01d0fb1350b54373b767a",
-            "reference": "3a068d8d1b096621fcd01d0fb1350b54373b767a",
+            "url": "https://api.github.com/repos/amnah/yii2-user/zipball/e0c20f543a33f75d690bd36352ffed18e809af96",
+            "reference": "e0c20f543a33f75d690bd36352ffed18e809af96",
             "shasum": ""
         },
         "require": {
             "yiisoft/yii2": "*",
             "yiisoft/yii2-authclient": "*"
         },
-        "time": "2015-07-10 04:32:23",
+        "time": "2015-11-10 03:06:24",
         "type": "yii2-extension",
         "installation-source": "dist",
         "autoload": {

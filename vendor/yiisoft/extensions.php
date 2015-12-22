@@ -69,7 +69,7 @@ return array (
   'amnah/yii2-user' => 
   array (
     'name' => 'amnah/yii2-user',
-    'version' => '3.0.0.0',
+    'version' => '4.0.0.0',
     'alias' => 
     array (
       '@amnah/yii2/user' => $vendorDir . '/amnah/yii2-user',
